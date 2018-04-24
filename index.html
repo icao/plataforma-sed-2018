@@ -17,7 +17,9 @@
             margin: 0;
         }
         </style>
-        <title></title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/custom.css">
+        <title>Plataforma SED</title>
     </head>
     <body>
         <div id="map">
@@ -45,6 +47,7 @@
         <script src="data/IEGAIndicedeeficaciadelagestiondelAgua_10.js"></script>
         <script src="data/IEDIndicedeeficaciadelserviciodedrenaje_11.js"></script>
         <script src="data/ICAIndicedeeficaciaenlacalidaddelagua_12.js"></script>
+        <script src="js/custom.js"></script>
         <script>
         var highlightLayer;
         function highlightFeature(e) {
@@ -2437,5 +2440,214 @@
             map.addControl(searchControl);
 
         </script>
+        
+        <section class="info-sidebar">
+            <div class="info-sidebar__icon info-sidebar__icon--pomegranate">
+                <a href="#/" class="js-open-presentation" title="Presentación de la plataforma"><i class="fas fa-info"></i></a>
+            </div>
+            <div class="info-sidebar__icon info-sidebar__icon--pomegranate">
+                <a href="#/" class="js-open-financing" title="Financiamiento"><i class="fas fa-dollar-sign"></i></a>
+            </div>
+            <div class="info-sidebar__icon info-sidebar__icon--pomegranate">
+                <a href="#/" class="js-open-indices" title="Índices"><i class="fas fa-map-marker-alt"></i></a>
+            </div>
+            <div class="info-sidebar__icon info-sidebar__icon--pomegranate">
+                <a href="#/" class="js-open-methodology" title="Nota metodológica"><i class="far fa-file"></i></a>
+            </div>
+            <div class="info-sidebar__icon info-sidebar__icon--pomegranate">
+                <a href="#/" class="js-open-references" title="Referencias"><i class="fas fa-users"></i></a>
+            </div>
+            
+        </section>
+
+        <section class="overlay overlay-presentation">
+            <div class="overlay-close">
+                <a href="#/" title="cerrar" class="js-close-overlay-presentation"><i class="far fa-times-circle"></i></a>
+            </div>
+            <div class="overlay-inner">
+                <h2 class="overlay-title">Presentación de la plataforma</h2>
+                <div class="overlay-content">
+                    <p>Durante las últimas décadas, la escasez de agua, el deterioro de su calidad y su desigual distribución han incrementado los riesgos que enfrentan los habitantes de la Ciudad de México, convirtiendo su prevención y mitigación en un desafío que exige tanto el diseño como la ejecución de perspectivas innovadoras en la gestión del agua (Sosa-Rodríguez, 2010, 2011, 2012, 2013, 2014, 2015). Las consecuencias negativas de los problemas mencionados en materia de gestión pueden prevenirse si se diseñan y ejecutan políticas estratégicas, de largo-plazo, intersectoriales y socialmente consensuadas. Para ello, es indispensable que los niveles de desempeño de las autoridades responsables de la prestación de estos servicios sean evaluados de manera sistemática.</p>
+                    <p>En plataforma se propone un método innovador de evaluación de la eficacia de la gestión del agua en la Ciudad de México para suministrar a la población con un volumen suficiente y que cumpla con los estándares de calidad, así como para disponer las aguas residuales generadas de manera rápida e higiénica, por medio del diseño y estimación de diversos índices. Los resultados de estos índices siguen los criterios de "aprobado"/"reprobado" del Sistema Escolar en México con calificaciones que van de 0 a 10, considerándose aquellas superiores a 6.0 como aprobatorias y las que son menores como reprobatorias.</p>
+                    <p>Los resultados de estos índices pondrán ser consultados de dos maneras: </p>
+                    <ol class="letters">
+                        <li>Identificando geográficamente la colonia que sea de interés en el Web Mapping que se despliega en esta página.</li>
+                        <li>Escribiendo el nombre de la colonia en el buscador.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="overlay overlay-financing">
+            <div class="overlay-close">
+                <a href="#/" title="cerrar" class="js-close-overlay-financing"><i class="far fa-times-circle"></i></a>
+            </div>
+            <div class="overlay-inner">
+                <h2 class="overlay-title">Financiamiento</h2>
+                <div class="overlay-content">
+                    <p>Esta plataforma fue elaborada gracias al financiamiento proveniente de la SEP-PRODEP como parte de la convocatoria de apoyo a la incorporación de nuevos PTC, proyecto número UAM-PTC-404 y del Consejo Nacional de Ciencia y Tecnología (CONACYT) como parte de la convocatoria CB-2013-01, proyecto número 221460. </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="overlay overlay-indices">
+            <div class="overlay-close">
+                <a href="#/" title="cerrar" class="js-close-overlay-indices"><i class="far fa-times-circle"></i></a>
+            </div>
+            <div class="overlay-inner">
+                <h2 class="overlay-title">Índices</h2>
+                <div class="overlay-content">
+                    <p><i>Índice de Eficacia de la Gestión del Agua (IEGA)</i></p>
+                    <p>Mide el éxito en la provisión de un suministro de agua suficiente que cumpla con los estándares de calidad, así como en la disposición y tratamiento adecuados de las aguas residuales en la Ciudad de México. 
+                        Los resultados de este índice sigue los criterios de "aprobado"/"reprobado" del Sistema Escolar en México con calificaciones que van de 0 a 10, considerándose aquellas superiores a 6.0 como aprobatorias y las que son menores como reprobatorias. 
+                    </p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+                    
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Eficacia en el Suministro (ISUM)</i></p>
+                    <p>Mide el desempeño de las autoridades en la prestación del servicio de agua para abastecer a la población con una dotación mínima que satisfaga sus necesidades básicas.
+                    Los resultados de este índice sigue los criterios de "aprobado"/"reprobado" del Sistema Escolar en México con calificaciones que van de 0 a 10, considerándose aquellas superiores a 6.0 como aprobatorias y las que son menores como reprobatorias. </p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Eficacia en la Calidad del Agua (ICA)</i></p>
+                    <p>Mide el desempeño de las autoridades para dotar a la población con un suministro de agua que cumpla con los estándares de calidad y garantice un consumo humano seguro. </p>
+                    <p>Los resultados de este índice sigue los criterios de "aprobado"/"reprobado" del Sistema Escolar en México con calificaciones que van de 0 a 10, considerándose aquellas superiores a 6.0 como aprobatorias y las que son menores como reprobatorias. </p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Eficacia del Servicio de Drenaje (IED)</i></p>
+                    <p>Mide el desempeño del servicio de drenaje para extraer de manera rápida, higiénica y sustentable las aguas residuales.</p>
+                    <p>Los resultados de este índice sigue los criterios de "aprobado"/"reprobado" del Sistema Escolar en México con calificaciones que van de 0 a 10, considerándose aquellas superiores a 6.0 como aprobatorias y las que son menores como reprobatorias. </p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Vulnerabilidad ante la Ineficacia Gestión del Agua (VIGA) </i></p>
+                    <p>Mide la  falta de capacidad de los capitalinos para hacer frente a los problemas en el suministro de agua y en la disposición de las agua, dadas las condiciones físicas, económicas, sociales y políticas, que enfrentan los habitantes de la Ciudad de México.</p>
+                    <p>Los resultados de este índice sigue los criterios de "aprobado"/"reprobado" del Sistema Escolar en México con calificaciones que van de 0 a 10, considerándose aquellas superiores a 6.0 como aprobatorias y las que son menores como reprobatorias. </p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Vulnerabilidad Física (VF)</i></p>
+                    <p>Mide los niveles de vulnerabilidad de los capitalinos, resultado de su localización en áreas que los predispone a ser afectados por su localización en ciertas áreas los predispone a ser afectados por inundaciones, hundimientos diferenciales del suelo o por la falta de servicios públicos incluidos el suministro de agua, el servicio de drenaje o la electricidad.</p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Vulnerabilidad Social (VS)</i></p>
+                    <p>Mide los niveles de vulnerabilidad de los capitalinos debido a los obstáculos que enfrentan ciertos grupos para tener acceso a la educación, atención médica, servicios públicos de calidad y a residir en viviendas seguras construidas con materiales durables.</p>
+                    <p>Los resultados de este índice sigue los criterios de "aprobado"/"reprobado" del Sistema Escolar en México con calificaciones que van de 0 a 10, considerándose aquellas superiores a 6.0 como aprobatorias y las que son menores como reprobatorias.</p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Vulnerabilidad Económica (VE)</i></p>
+                    <p>Mide los niveles de vulnerabilidad de los capitalinos por la falta de ingresos y empleo, y el tipo de actividad realizada, las cuales evitan que cuenten con fondos suficientes para encontrar otras alternativas de abastecimiento de agua y disposición de sus excretas, a pesar de que en general suelen ser más caras.</p>
+                    <p>Los resultados de este índice sigue los criterios de "aprobado"/"reprobado" del Sistema Escolar en México con calificaciones que van de 0 a 10, considerándose aquellas superiores a 6.0 como aprobatorias y las que son menores como reprobatorias. </p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Vulnerabilidad Política (VP)</i></p>
+                    <p>Mide los niveles de vulnerabilidad de los capitalinos debido a la falta de atención de sus demandas por parte de las autoridades, así como por su falta de participación y organización de la sociedad civil en la toma de decisiones en materia de gestión del agua.  </p>
+                    <p>Los resultados de este índice sigue los criterios de "aprobado"/"reprobado" del Sistema Escolar en México con calificaciones que van de 0 a 10, considerándose aquellas superiores a 6.0 como aprobatorias y las que son menores como reprobatorias. </p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Riesgo ante la Ineficacia de la Gestión del Agua (RIGA)</i></p>
+                    <p>Determina qué zonas requieren de atención para prevenir riesgos relacionados con problemas en el acceso (RSUM) y calidad del agua suministrada (RCAL), así como por la falta del servicio de drenaje o problemas en su funcionamiento (RDREN), dados sus niveles de exposición a dichos riesgos.   </p>
+                    <p>Este índice tiene una distribución probabilística (0 ≤ RIGA ≤ 100). Cuando RIGA ≈ 100, los habitantes de la colonia analizada enfrentan el máximo riesgo posible como resultado de los problemas de la gestión del agua mencionados; de manera contraria, si RIGA ≈ 0, su exposición es mínima.</p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Riesgo por la Falta de Suministro (RSUM) </i></p>
+                    <p>Determina qué zonas requieren de atención para prevenir riesgos relacionados con problemas en el acceso (RSUM).</p>
+                    <p>Este índice tiene una distribución probabilística (0 ≤ RIGA ≤ 100). Cuando RIGA ≈ 100, los habitantes de la colonia analizada enfrentan el máximo riesgo posible como resultado de los problemas de la gestión del agua mencionados; de manera contraria, si RIGA ≈ 0, su exposición es mínima.</p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Riesgo por la Falta de Calidad (RCAL)</i></p>
+                    <p>Determina qué zonas requieren de atención para prevenir riesgos relacionados con la calidad del agua suministrada (RCAL).</p>
+                    <p>Este índice tiene una distribución probabilística (0 ≤ RIGA ≤ 100). Cuando RIGA ≈ 100, los habitantes de la colonia analizada enfrentan el máximo riesgo posible como resultado de los problemas de la gestión del agua mencionados; de manera contraria, si RIGA ≈ 0, su exposición es mínima.</p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                    <p>&nbsp;</p>
+                    
+                    <p><i>Índice de Riesgo por Fallas en el Drenaje (RDREN) </i></p>
+                    <p>Determina qué zonas requieren de atención para prevenir riesgos relacionados con la falta del servicio de drenaje o problemas en su funcionamiento (RDREN). </p>
+                    <p>Este índice tiene una distribución probabilística (0 ≤ RIGA ≤ 100). Cuando RIGA ≈ 100, los habitantes de la colonia analizada enfrentan el máximo riesgo posible como resultado de los problemas de la gestión del agua mencionados; de manera contraria, si RIGA ≈ 0, su exposición es mínima.</p>
+                    <p>Para mayor información consultar los siguientes artículos de investigación:</p>
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="overlay overlay-methodology">
+                <div class="overlay-close">
+                    <a href="#/" title="cerrar" class="js-close-overlay-methodology"><i class="far fa-times-circle"></i></a>
+                </div>
+                <div class="overlay-inner">
+                    <h2 class="overlay-title">Nota metodológica</h2>
+                    <div class="overlay-content">
+                        <p>La construcción de los índices se basó en las definiciones de los conceptos de eficacia en la gestión, vulnerabilidad y riesgo más aceptados a nivel mundial, entendiéndose por eficacia en la gestión del agua, el nivel de cumplimiento de los objetivos en materia de suministro, calidad del agua y disposición de las aguas residuales; por vulnerabilidad, la fragilidad de la condición humana que limita sus capacidades para enfrentar las amenazas; y finalmente, por riesgo, el producto de las amenazas por la vulnerabilidad (Sosa-Rodríguez, 2010, 2011). </p>
+                        <p>Debido a que los grupos sociales y las diversas entidades enfrentan distintos niveles de eficacia en la gestión del agua, al igual que de niveles de vulnerabilidad y riesgo, sus impactos tanto entre la población como en el territorio no se distribuyen de una manera homogénea, siendo indispensable el análisis de estos índices en las unidades espaciales más desagregadas para las cuales fue posible obtener la información requerida como en el caso de las colonias y Áreas Geoestadísticas Básicas (AGEBs) de la Ciudad de México (Sosa-Rodríguez, 2010, 2011).  </p>
+                        <p>Asimismo, para facilitar la comprensión e interpretación de los resultados por parte de la sociedad en general y de los tomadores de decisiones y los actores involucrados en la gestión del agua, se utilizó como método de evaluación el análisis de componentes principales, cuyos resultados fueron normalizados y transformados en unidades decimales con el fin de utilizar los mismos criterios de evaluación "aprobado"/"reprobado" del Sistema Escolar en México (Sosa-Rodríguez, 2010, 2011).</p>
+                        <p><i>El Índice de Eficacia de la Gestión del Agua (IEGA)</i> se conforma de tres índices: el Índice de Eficacia de la Gestión del Agua (IEGA), el Índice de Eficacia en el Suministro (ISUM), y el Índice de Eficacia en la Calidad del Agua (ICA). El ISUM estima la eficacia en el suministro considerando el consumo de agua per cápita, el acceso al agua por medio de la red, la cobertura de la red de agua y tanto el volumen perdido como el número de fugas en la red de distribución. El ICA está constituido por las variables concentración de cloro residual y presencia de bacterias coliformes fecales en las muestras de agua por colonia, además de la mortalidad total y la mortalidad infantil por enfermedades gastrointestinales. Finalmente, el IED incluye variables como el acceso al servicio de drenaje por medio de la red pública, la cobertura de la red, y las inundaciones en las zonas residenciales y en las vialidades principales (Sosa-Rodríguez, 2010, 2011).   </p>
+                        <p><i>El Índice de Vulnerabilidad ante la Ineficacia de la Gestión del Agua (VIGA)</i>, mide la  falta de capacidad de los capitalinos para hacer frente a problemas en el suministro de agua y en la disposición de las agua, dadas las condiciones físicas (VF), económicas (VE), sociales (VS) y políticas (VP) que enfrentan los habitantes de la Ciudad de México. El Índice de Vulnerabilidad Física (VF) fue estimado considerando la topografía,  pluviometría, subsidencia y permeabilidad del suelo, proximidad a cuerpos de agua e infraestructura para el almacenamiento. El índice de Vulnerabilidad Social (VS) toma en cuenta la densidad poblacional; la falta de acceso a los servicios de agua, drenaje, electricidad y gas; los niveles de analfabetismo; la falta de educación básica; las personas que no cuentan con radio ni televisión; las viviendas construidas con materiales no durables; la falta de acceso a los servicios de salud; y los grupos vulnerables (personas con capacidades especiales, adultos mayores y menores a 5 años). El Índice de Vulnerabilidad Económica (VE) incluye el ingreso per cápita, la ocupación laboral, el sueldo o salario, las horas trabajadas y los niveles de desempleo. Finalmente, el Índice de Vulnerabilidad Política (VP) se constituye por el número y características de las organizaciones sociales y políticas, la concentración de votantes y la participación en la contienda electoral (Sosa-Rodríguez, 2010, 2011).  </p>
+                        <p><i>Índice de Riesgos por la Ineficacia en la Gestión del Agua (RIGA)</i>. </p>
+                        <p>Tiene una distribución probabilística (0 ≤ RIGA ≤ 100). Cuando RIGA ≈ 100, los habitantes de la colonia analizada enfrentan el máximo riesgo posible como resultado de los problemas de la gestión del agua mencionados; de manera contraria, si RIGA ≈ 0, su exposición es mínima (Sosa-Rodríguez, 2010, 2011).</p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="overlay overlay-references">
+            <div class="overlay-close">
+                <a href="#/" title="cerrar" class="js-close-overlay-references"><i class="far fa-times-circle"></i></a>
+            </div>
+            <div class="overlay-inner">
+                <h2 class="overlay-title">Referencias</h2>
+                <div class="overlay-content">
+                    <p>Sosa-Rodriguez FS (2011). Modelo de evaluación del servicio de agua y drenaje en el Distrito Federal. Revista Legislativa de Estudios Sociales y de Opinión Pública, Cámara Legislativa, LXI Legislatura, Vol. 4, Núm: 7 (2011) 104-135. ISSN 2007-1531 Pp: 103-135</p>
+                    <p>Sosa-Rodriguez FS (2010). Exploring the Risks of Ineffective water supply and sewage disposal: A case study of Mexico City. Environmental Hazards, 9 (2010), pp. 135-146. Earthscan. ISSN: 1878-0059.</p>
+                    <p>Sosa-Rodríguez FS (2012). El futuro de la disponibilidad del agua en México y las medidas de adaptación utilizadas en el contexto internacional. Revista Internacional de Ciencias Sociales y Humanidades. SocioTam. XXII. N.2 (Jul-Dic 2012). Pp. 165-188. ISSN: 1405-3543.</p>
+                    <p>Sosa- Rodriguez FS (2014). From Federal to City Mitigation and Adaptation: Climate Change Policy in Mexico City. Mitigation and Adaptation Strategies for Global Change Journal 19 (2014): 969- 996.</p>
+                    <p>Sosa-Rodríguez, F.S. (2015). La política del cambio climático en México: avances, obstáculos y retos. Revista Internacional de Estadística y Geografía. Vol. 6, Número 2, mayo-agosto de 2015. ISSN 2007-2961. Pp. 4-23.</p>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
